@@ -1,0 +1,204 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* ----------------------- common style ------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+/* ---------------------------- Header Section style start-------------------------*/
+.header{
+    background-color: #562EFF;
+    color: #fff;
+}
+.logo_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 18px 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+.logo img{
+    width: 40px;
+}
+.logo span{
+    font-size: 24px;
+    font-weight: 500;
+}
+.menu{}
+.menu ul{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.menu ul li{}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+/* ---------------------------- Header Section style End-------------------------*/
+
+/* ---------------------------- top players style -------------------------*/
+.top_player_container {
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.top_players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.section_title {
+    color: #562EFF;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player h3 {
+    font-size: 18px;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+/* -------------------------- top blogs  style -------------------------------*/
+.top_blogs {}
+
+.section_title {}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog .thambnil img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog_details {
+    margin-left: 16px;
+}
+
+.blog_title {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 500;
+}
+
+.blog_author {
+    font-size: 1rem;
+    color: #562EFF;
+    line-height: 24px;
+}
+.blog_author a{
+    font-size: 1rem;
+    color: #9F9F9F;
+    text-decoration: none;
+}
+
+/*---------------------- Course Section Style -------------------*/
+
+.course{
+    background-color: #fff;
+    margin-top: 21px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.all_course{
+    display: flex;
+    gap: 22px;
+}
+.course .section_title{
+   margin-bottom: 17px;
+}
+.course_item{
+    padding: 13px 11px;
+    width: 252px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+}
+.course_item img{
+    width: 224px;
+}
+.course_title{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.course_author{
+    color: #ED6B4F;
+    font-size: 15px;
+}
+.ratting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+.ratting span{
+    color: #AEAEAE;
+}
+
+.ratting .count_time{
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    padding: 10px 12px;
+    border-radius: 30px;
+}
