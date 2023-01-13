@@ -23,6 +23,9 @@ main {
     padding-bottom: 25px;
 }
 
+.hide{
+    display: none;
+}
 /* ---------------------------- Header Section style start-------------------------*/
 .header{
     background-color: #562EFF;
@@ -201,4 +204,10 @@ hr{
     color: #FF4A60;
     padding: 10px 12px;
     border-radius: 30px;
+}
+
+/* --------------------- Style For media Screen 576px------------------------ */
+@media screen and (max-width: 576px){
+    
+
 }
