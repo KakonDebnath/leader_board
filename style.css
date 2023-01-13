@@ -323,7 +323,7 @@ hr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 15px;
-        padding: 0px 40px;
+        padding: 20px 40px;
     }
 
     .blog {
